@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <h3 class="clr1">Your Result</h3>
+        <div class="circle">
+          <p>76 <span class="clr1">of 100</span></p>
+        </div>
+        <h2>Great</h2>
+        <p class="clr1">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="summary">
+        <h3 id="summary1">Summary</h3>
+        <ul>
+          <li id="reaction"><img src="./assets/images/icon-reaction.svg" alt="Reaction"> <span id="text">Reaction</span> 80 <span id="per100">/ 100</span></li>
+          <li id="memory"><img src="./assets/images/icon-memory.svg" alt="Memory"> <span id="text">Memory</span> 92 <span id="per100">/ 100</span></li>
+          <li id="verbal"><img src="./assets/images/icon-verbal.svg" alt="Verbal"> <span id="text">Verbal</span> 61 <span id="per100">/ 100</span></li>
+          <li id="visual"><img src="./assets/images/icon-visual.svg" alt="Visual"> <span id="text">Visual</span> 72 <span id="per100">/ 100</span></li>
+        </ul>
+        <button type="submit">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
